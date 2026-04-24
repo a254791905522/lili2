@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy — Christmas Grit Little Cheery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f4efe6;
+            background-image:
+                linear-gradient(180deg, #faf6ef 0%, #ebe4d6 100%);
+            color: #2d4a42;
+            line-height: 1.75;
+            min-height: 100vh;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 32px 22px 80px;
+        }
+
+        .masthead {
+            border-left: 5px solid #c41e3a;
+            padding: 8px 0 8px 22px;
+            margin-bottom: 40px;
+        }
+
+        .masthead .label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #8b6914;
+            margin-bottom: 6px;
+        }
+
+        .masthead h1 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1a3c34;
+            line-height: 1.2;
+        }
+
+        .masthead .meta {
+            margin-top: 12px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #5c756c;
+        }
+
+        .toc {
+            display: grid;
+            gap: 8px;
+            margin-bottom: 44px;
+            padding: 20px 22px;
+            background: #fff;
+            border-radius: 12px;
+            border: 1px solid rgba(26, 60, 52, 0.12);
+            box-shadow: 0 4px 20px rgba(26, 60, 52, 0.06);
+        }
+
+        .toc strong {
+            font-size: 0.75rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #c41e3a;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .toc ol {
+            margin: 0;
+            padding-left: 1.25rem;
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: #2d4a42;
+        }
+
+        .toc a {
+            color: #1a5c4a;
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 36px;
+            padding-bottom: 36px;
+            border-bottom: 1px dashed rgba(26, 60, 52, 0.15);
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        section h2 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a3c34;
+            margin-bottom: 14px;
+        }
+
+        section h2 .num {
+            display: inline-block;
+            min-width: 1.6em;
+            color: #c41e3a;
+            font-variant-numeric: tabular-nums;
+        }
+
+        section p {
+            font-size: 0.98rem;
+            color: #3d5c54;
+            margin-bottom: 12px;
+        }
+
+        section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            background: linear-gradient(90deg, rgba(196, 30, 58, 0.08), rgba(212, 175, 55, 0.12));
+            border-radius: 10px;
+            padding: 18px 20px;
+            margin-top: 14px;
+            border: 1px solid rgba(26, 60, 52, 0.1);
+        }
+
+        .highlight p {
+            margin-bottom: 0;
+            font-weight: 600;
+            color: #2d4a42;
+        }
+
+        dl.grid {
+            display: grid;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        dl.grid dt {
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #8b6914;
+        }
+
+        dl.grid dd {
+            font-size: 0.95rem;
+            color: #3d5c54;
+            margin: 4px 0 0;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 48px;
+            padding: 12px 24px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #fff;
+            background: #1a3c34;
+            border-radius: 10px;
+            text-decoration: none;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .back:hover {
+            background: #0f2e28;
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 640px) {
+            .masthead h1 { font-size: 1.65rem; }
+            .page { padding: 24px 16px 64px; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header class="masthead">
+            <p class="label">Mobile game</p>
+            <h1>Privacy summary</h1>
+            <p class="meta">Christmas Grit Little Cheery · Effective April 2026</p>
+        </header>
+
+        <nav class="toc" aria-label="Page sections">
+            <strong>On this page</strong>
+            <ol>
+                <li><a href="#s1">Scope</a></li>
+                <li><a href="#s2">Data collection</a></li>
+                <li><a href="#s3">Apple &amp; the App Store</a></li>
+                <li><a href="#s4">Advertising</a></li>
+                <li><a href="#s5">Purchases &amp; Game Center</a></li>
+                <li><a href="#s6">Local storage on your device</a></li>
+                <li><a href="#s7">Children</a></li>
+                <li><a href="#s8">Updates</a></li>
+            </ol>
+        </nav>
+
+        <section id="s1">
+            <h2><span class="num">1.</span> Scope</h2>
+            <p>This document summarizes privacy-related information for the iOS/iPadOS app <strong>Christmas Grit Little Cheery</strong>, distributed through Apple’s App Store. It is a plain-language companion to what appears on the store listing; Apple’s own policies also apply to your account, device, and store transactions.</p>
+        </section>
+
+        <section id="s2">
+            <h2><span class="num">2.</span> Data collection</h2>
+            <p>According to the app’s <strong>App Privacy</strong> details on the App Store, the product is reported as <strong>not collecting data</strong> for the categories Apple lists there. Practices can still depend on your iOS version, settings, and how you use system features (for example signing in to Game Center).</p>
+            <div class="highlight">
+                <p>Summary: the published store disclosure indicates no app-side collection of personal data in Apple’s defined categories.</p>
+            </div>
+        </section>
+
+        <section id="s3">
+            <h2><span class="num">3.</span> Apple &amp; the App Store</h2>
+            <p>Downloading, updating, billing, and Family Sharing are handled by <strong>Apple</strong> under Apple’s terms and privacy policy. Review Apple’s materials if you want detail on Apple ID, payment data, or device analytics that operate at the platform level.</p>
+        </section>
+
+        <section id="s4">
+            <h2><span class="num">4.</span> Advertising</h2>
+            <p>The store listing notes that the app <strong>contains advertising</strong>. Ad networks may use their own technologies subject to Apple’s rules and your tracking preferences (such as App Tracking Transparency, where applicable). This page does not describe third-party ad SDKs in technical detail; their behavior may evolve with app updates.</p>
+        </section>
+
+        <section id="s5">
+            <h2><span class="num">5.</span> Purchases &amp; Game Center</h2>
+            <p>Optional <strong>in-app purchases</strong> (for example hints or ad removal) are processed through Apple. If you use <strong>Game Center</strong>, leaderboard-related activity is governed by Apple’s Game Center terms and your privacy choices for that service.</p>
+            <dl class="grid">
+                <div>
+                    <dt>In-app purchases</dt>
+                    <dd>Handled by Apple; no payment card data is processed inside this static page.</dd>
+                </div>
+                <div>
+                    <dt>Game Center</dt>
+                    <dd>Optional; uses Apple’s social gaming infrastructure when enabled.</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section id="s6">
+            <h2><span class="num">6.</span> Local storage on your device</h2>
+            <p>Like most games, the app may keep <strong>progress, settings, or similar data locally</strong> on your iPhone or iPad so levels and preferences work offline. That information normally remains on the device unless a future version introduces explicit cloud sync, which would be described in release notes or store text when relevant.</p>
+        </section>
+
+        <section id="s7">
+            <h2><span class="num">7.</span> Children</h2>
+            <p>The app is rated suitable for <strong>ages 4 and up</strong>. Parents and guardians can use Apple’s Screen Time and purchase controls to manage installs and spending. For any concern about store-reported data practices, the App Store listing remains the primary reference.</p>
+        </section>
+
+        <section id="s8">
+            <h2><span class="num">8.</span> Updates</h2>
+            <p>This summary may be revised to match new store disclosures or features. The <strong>effective date</strong> at the top will change when the text is updated. If App Privacy labels or app behavior change, check the latest listing on the App Store for authoritative detail.</p>
+        </section>
+
+        <a class="back" href="index.html">Return to game overview</a>
+    </div>
+</body>
+
+</html>
